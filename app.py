@@ -8,9 +8,9 @@ from sklearn.preprocessing import OneHotEncoder
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error
 
-st.set_page_config(page_title="House Price Predictor", layout="centered")
+st.set_page_config(page_title=" House Price Predictor", layout="centered")
 
-st.title("New York City House Price Predictor")
+st.title("🏢New York City House Price Predictor")
 
 # load data
 @st.cache_data
